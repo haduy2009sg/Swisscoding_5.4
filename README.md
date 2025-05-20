@@ -2,8 +2,8 @@
 ***
 ### 1. **YÊU CẦU BÀI THỰC HÀNH**
 
-Đường dẫn phía sau chứa các yêu cầu bài thực hành :  [LINK THỰC HÀNH]([https://colab.research.google.com/drive/1TpyZNqmoa2y_kmNK8Osj3fIrc6iqtkil?usp=sharing](https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/Duy_%5Btemplate%5D_Restaurant_tips_analysis.ipynb)) 
-<p> *NOTE: Nhớ rằng chọn chia sẻ bài tập nha (https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/image.png) </p>
+Đường dẫn phía sau chứa các yêu cầu bài thực hành :  [LINK THỰC HÀNH](https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/Duy_%5Btemplate%5D_Restaurant_tips_analysis.ipynb)
+<p> *NOTE: Nhớ rằng chọn chia sẻ bài tập nha ![]( </p>
 
 ### 2. **NHỮNG CÁI NHÌN ĐẦU TIÊN VỀ DỮ LIỆU**
 ##### Tôi thêm dữ liệu:
