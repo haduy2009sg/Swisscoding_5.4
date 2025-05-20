@@ -3,7 +3,7 @@
 ### 1. **YÊU CẦU BÀI THỰC HÀNH**
 
 Đường dẫn phía sau chứa các yêu cầu bài thực hành :  [LINK THỰC HÀNH](https://colab.research.google.com/drive/1TpyZNqmoa2y_kmNK8Osj3fIrc6iqtkil?usp=sharing) 
-<p> *NOTE: Nhớ rằng chọn chia sẻ bài tập nha (hình) </p>
+<p> *NOTE: Nhớ rằng chọn chia sẻ bài tập nha (https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/image.png) </p>
 
 ### 2. **NHỮNG CÁI NHÌN ĐẦU TIÊN VỀ DỮ LIỆU**
 ##### Tôi thêm dữ liệu:
