@@ -3,7 +3,10 @@
 ### 1. **YÊU CẦU BÀI THỰC HÀNH**
 
 Đường dẫn phía sau chứa các yêu cầu bài thực hành :  [LINK THỰC HÀNH](https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/Duy_%5Btemplate%5D_Restaurant_tips_analysis.ipynb)
-<p> *NOTE: Nhớ rằng chọn chia sẻ bài tập nha ![]( </p>
+
+NOTE: Nhớ rằng chọn chia sẻ bài tập nha 
+ 
+ ![image](https://github.com/haduy2009sg/Swisscoding_5.4/blob/main/image.png?raw=true)
 
 ### 2. **NHỮNG CÁI NHÌN ĐẦU TIÊN VỀ DỮ LIỆU**
 ##### Tôi thêm dữ liệu:
