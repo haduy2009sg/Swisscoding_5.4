@@ -84,3 +84,72 @@ df.describe()
 ### 3. Thông kê những yếu tố ảnh hưởng đến tiền tip
 
 ##### * Người hút thuốc và không hút thuốc
+```python
+# Common_tip
+common_tip_min = df['tip'].min()
+common_tip_max = df['tip'].max()
+common_tip_mean = df['tip'].mean()
+common_tip_median = df['tip'].median()
+  # Make a list of values
+common_values = [common_tip_min, common_tip_max, common_tip_mean, common_tip_median]
+  # Round all the values to 4 decimal places
+common_values = map(lambda x: round(x, 4), common_values)
+
+  # Make a dataframe from the list
+common_mct = pd.DataFrame(common_values, index=['min', 'max', 'mean', 'median'])
+  # Output the dataframe
+display(common_mct)
+# Smokers_tip
+smokers_tip_min = smokers_df['tip'].min()
+smokers_tip_max = smokers_df['tip'].max()
+smokers_tip_mean = smokers_df['tip'].mean()
+smokers_tip_median = smokers_df['tip'].median()
+smokers_values = [smokers_tip_min,smokers_tip_max,smokers_tip_mean,smokers_tip_median]
+smokers_values = map(lambda x: round(x,4),smokers_values)
+smokers_values_show = pd.DataFrame(smokers_values, index = ['min','max','mean','median'])
+display(smokers_values_show)
+# Non_smokers_tip
+non_smokers_tip_min = non_smokers_df['tip'].min()
+non_smokers_tip_max = non_smokers_df['tip'].max()
+non_smokers_tip_mean =  non_smokers_df['tip'].mean()
+non_smokers_tip_median = non_smokers_df['tip'].median()
+non_smokers_values = [non_smokers_tip_min,non_smokers_tip_max,non_smokers_tip_mean,non_smokers_tip_median]
+non_smokers_values = map(lambda x: round(x,4),non_smokers_values)
+non_smokers_values_show = pd.DataFrame(non_smokers_values, index = ['min','max','mean','median'])
+display(non_smokers_values_show)
+# Make_dictionary
+all_vals_dict = {
+    'Common': {'min': common_tip_min, 'max': common_tip_max, 'mean': common_tip_mean, 'median': common_tip_median},
+    'Smokers': {'min': smokers_tip_min, 'max': smokers_tip_max, 'mean': smokers_tip_mean, 'median': smokers_tip_median},
+    'Non-smokers': {'min': non_smokers_tip_min, 'max': non_smokers_tip_max, 'mean': non_smokers_tip_mean, 'median': non_smokers_tip_median}
+}
+
+  # Make a dataframe
+all_mct = pd.DataFrame(all_vals_dict)
+  # Output the dataframe
+display(all_mct)
+```
+<table>
+<tr><td>
+
+Display 'common_mct'
+
+index|0|
+|:---:|:---:|
+|min|1\.0|
+|max|10\.0|
+|mean|2\.9983|
+|median|2\.9|
+
+</td><td>
+
+Display 'smokers_values_show'
+index|0|
+|---|---|
+|min|1\.0|
+|max|10\.0|
+|mean|3\.0087|
+|median|3\.0|
+
+</td></tr> </table>
+
