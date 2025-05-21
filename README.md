@@ -144,6 +144,7 @@ index|0|
 </td><td>
 
 Display 'smokers_values_show'
+
 index|0|
 |---|---|
 |min|1\.0|
@@ -151,5 +152,28 @@ index|0|
 |mean|3\.0087|
 |median|3\.0|
 
+</td><td>
+
+Display 'non_smokers_values_show'
+
+|index|0|
+|---|---|
+|min|1\.0|
+|max|9\.0|
+|mean|2\.9919|
+|median|2\.74|
+
+</td><td>
+
+Display 'all_mct'
+
+|index|Common|Smokers|Non-smokers|
+|---|---|---|---|
+|min|1\.0|1\.0|1\.0|
+|max|10\.0|10\.0|9\.0|
+|mean|2\.99827868852459|3\.008709677419355|2\.9918543046357615|
+|median|2\.9|3\.0|2\.74|
+
 </td></tr> </table>
+
 
